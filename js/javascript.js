@@ -1,12 +1,8 @@
-// bridge.send('VKWebAppInit')
-//   .then((data) => { 
-//     if (data.result) {
-//       alert("++++");
-//     } else {
-//       alert("error");
-//     }
-//   })
-//   .catch((error) => {
-//     // Ошибка
-//     console.log(error);
-//   });
+vkBridge.send('VKWebAppInit'); // Иницилизация приложения на сервере Вконтакте
+
+function ControlInJS(cmd) {
+  if (cmd == "ActiveMenuCreatePlan") { // Если выбрана кнпока "Создать тренировку"
+    vkBridge.send('VKWebAppAddToFavorites');
+    alert("+++");
+  };
+};
