@@ -8,11 +8,6 @@
 	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
 	<script lang="javascript" src="js/JavaScript.js"></script>  <!--  основной файл скрипта  -->
 	
-	<script>
-		// Отправляет событие инициализации нативному клиенту
-		vkBridge.send('VKWebAppInit');
-	</script>
-
 	<title> Solve Corporation </title>
 </head>
 <body>
@@ -34,7 +29,7 @@
 
 	<!---Главный интерфейс -->
 	<center><div id="MainBlock">
-		<div id="button_main">создать тренировку</div>
+		<div onclick="ControlInJS('ActiveMenuCreatePlan')" id="button_main">создать тренировку</div>
 		<div id="button_new">магазин</div>
 		<div id="button_frot">обратная связь</div>
 		<div id="button_frot">параметры</div>
