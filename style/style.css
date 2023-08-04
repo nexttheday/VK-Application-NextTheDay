@@ -76,7 +76,7 @@ h1 {
 	color: #fff;
 	font-family: Verdana;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 3.9vw;
 	line-height: 40px;
 }
 
@@ -101,7 +101,7 @@ h1 {
 	transition: 0.1s;
 	font-family: Verdana;
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 3.5vw;
 }
 
 #MainBlock div:hover {
