@@ -5,8 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="style/style.css">
-	<script lang="javascript" src="js/JavaScript.js"></script>  <!--  основной файл скрипта  -->
 	<script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+	<script lang="javascript" src="js/JavaScript.js"></script>  <!--  основной файл скрипта  -->
+	
+	<script>
+		// Отправляет событие инициализации нативному клиенту
+		alert("+++")
+		vkBridge.send('VKWebAppInit');
+	</script>
+
 	<title> Solve Corporation </title>
 </head>
 <body>
@@ -28,10 +35,10 @@
 
 	<!---Главный интерфейс -->
 	<center><div id="MainBlock">
-		<div id="button_main">создать план тренировки</div>
+		<div id="button_main">создать тренировку</div>
 		<div id="button_new">магазин</div>
 		<div id="button_frot">обратная связь</div>
-		<div id="button_frot">выход</div>
+		<div id="button_frot">параметры</div>
 	</div></center>
 	<!--- ///////////////// -->
 
