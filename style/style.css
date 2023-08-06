@@ -83,6 +83,8 @@ h1 {
 
 /*---------------------------*/
 
+
+/* Главное меню с кнопками */
 #MainBlock {
 	margin-top: 12em;
 }
@@ -110,3 +112,63 @@ h1 {
 	border-width: 15px;
 	transform: translate(0, -2px);
 }
+
+/* --------------------- */
+
+
+/* Меню версии (информация) */
+
+/* Кнопка "назад" */
+#Button_setting_back_on_mainMenu {
+	position: absolute;
+	display: flex;
+	left: 15%;
+	top: 16vw;
+	font-size: 3.3vw;
+	width: 20%;
+	font-family: sans-serif;
+	height: 5vw;
+	border-radius: 25px;
+	justify-content: center;
+	align-content: center;
+	cursor: pointer;
+	background-color: #E38F3E;
+	color: white;
+}
+
+#Button_setting_back_on_mainMenu:hover {
+	background-color: white;
+	color: #5F5F5F;
+
+}
+
+#MainBlock_info {
+	position: absolute;
+	background-color: #E38F3E;
+	left: 15%;
+	top: 23vw;
+	width: 70%;
+	height: 12vw;
+	justify-content: center;
+	align-content: center;
+	border-radius: 25px;
+}
+
+#text_version{
+	font-size: 4.2vw;
+	color: white;
+	font-family: Verdana;
+	font-weight: bold;
+	margin-top: 10px;
+}
+#all_option_version {
+	color: #EAEAEA;
+}
+
+#Menu_info {
+	display: none;
+}
+
+
+
+/* ----------------------- */
