@@ -122,10 +122,10 @@ h1 {
 #Button_setting_back_on_mainMenu {
 	position: absolute;
 	display: flex;
-	left: 15%;
+	left: 7.5vw;
 	top: 16vw;
 	font-size: 3.3vw;
-	width: 20%;
+	width: 20vw;
 	font-family: sans-serif;
 	height: 5vw;
 	border-radius: 25px;
@@ -145,24 +145,24 @@ h1 {
 #MainBlock_info {
 	position: absolute;
 	background-color: #E38F3E;
-	left: 15%;
+	left: 7.5vw;
 	top: 23vw;
-	width: 70%;
-	height: 13.5vw;
+	width: 85vw;
+	height: 17vw;
 	justify-content: center;
 	align-content: center;
 	border-radius: 25px;
 }
 
 #text_version{
-	font-size: 4.2vw;
+	font-size: 6vw;
 	color: white;
 	font-family: Verdana;
 	font-weight: bold;
 	margin-top: 10px;
 }
 #all_option_version {
-	font-size: 3vw;
+	font-size: 4.5vw;
 	color: #EAEAEA;
 }
 
