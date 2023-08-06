@@ -1,6 +1,20 @@
 vkBridge.send('VKWebAppInit'); // Иницилизация приложения на сервере Вконтакте
-vkBridge.send('VKWebAppAddToProfile', {ttl: 1666076431}); // Предложить перенести в профиль пользователя
 
+vkBridge.send('VKWebAppAddToProfile', {
+  ttl: 1666076431
+  })
+  .then((data) => { 
+    if (data.visibility) {
+      alert("Кнопка добавлена в профиль")
+    }
+  })
+  .catch((error) => {
+    alert("Ошибка произошла !", error);
+    console.log(error);
+  });
+
+
+// Класс функционала сайта
 class settings {
   constructor(options) {
     this.ActiveMenu = "MainMenu"; // Активное меню сейчас
